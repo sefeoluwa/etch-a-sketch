@@ -3,13 +3,10 @@ html, body {
     padding: 0;
     margin: 0;
     font-family: Exo;
-    background: linear-gradient(#f3f1f1, #b8b5b5);
-    background-repeat: no-repeat;
+    
+    
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-
 }
 
 .header{
@@ -17,7 +14,13 @@ html, body {
     justify-content:center;
 }
 
+.sketch{
+    
+}
+
 .main{
+    display: flex;
+    justify-content: center;
     background-color:;
 }
 
@@ -28,6 +31,8 @@ html, body {
     flex-direction: column;
     border: 15px solid rgb(150, 142, 142);
     border-radius: 14px;
+    background: linear-gradient(#f3f1f1, #b8b5b5);
+    background-repeat: no-repeat;
 }
 
 .row {
