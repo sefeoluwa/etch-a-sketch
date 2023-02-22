@@ -1,8 +1,43 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    font-family: Exo;
+    background: linear-gradient(#f3f1f1, #b8b5b5);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
 .header{
     display:flex;
     justify-content:center;
 }
 
-.divs{
-    background-color: red;
+.main{
+    background-color:;
 }
+
+.container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 15px solid rgb(150, 142, 142);
+    border-radius: 14px;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.column {
+    border: 1px solid rgb(243, 239, 239);
+    flex: 1;
+}
+
+

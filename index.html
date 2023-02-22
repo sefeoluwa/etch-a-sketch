@@ -13,21 +13,23 @@
          <h1 class="header">Etchy Sketchy</h1>
          <div id="form" class="form">
             <p>Pick New Size</p>
-            <input type="text" id="user-number" class="user-number">
+            <input type="text" id = "user-number" class ="user-number">
             <p id="copy-input"></p>
             <button id="user-submit" class="user-submit">Submit</button>
             <p id="prompt"></p>
          </div>
          <div class="sketch">
-             <div id="container"></div>
-                 <section id="buttons">
-                     <button id="black">Black</button>
-                     <button id="red">Red</button>
-                     <button id="blue">Blue</button>
-                     <button id="random">Random</button>
-                     <button id="erase">Erase</button>
-                     <button id="clear-all">Clear All</button>
-                 </section>
+             <div id="container" class="container"></div>
+                 <div id="button-container">
+                    <form id="buttons">
+                        <input type="radio" id="black" name="color" value="black"> <label for="black">Black</label>
+                        <input type="radio" id="red" name="color" value="red"> <label for="red">Red</label>
+                       <input type="radio" id="blue" name="color" value="blue"> <label for="blue">Blue</label>
+                       <input type="radio" id="random" name="color" value="random"> <label for="Random">Random</label>
+                       <input type="radio" id="erase" name="color" value="erase"> <label for="erase">Erase</label>
+                       <button id="clear-all">Clear All</button>
+                    </form>
+                 </div>
              </div>
          <footer>Built by Sefeoluwa for <a href="https://www.theodinproject.com" target="_blank">The Odin Project Curriculum </a> </footer>
       </main>
