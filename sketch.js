@@ -1,9 +1,24 @@
 //getting the main div where the square divs would be stored. 
-const container = document.getElementById('container');
+let container = document.getElementById('#container');
 
-//function to create the divs
+//create a singular div
+let div = document.createElement('div');
+div.setAttribute('class', 'divs')
 
-//creating classlist for each div to be stlyed with css
+//create the divs
+function createDiv(){
+    
+    
+    //loop the creation of the squares
+ for (let i=0; i<256; i++){
+    
+}
+
+}
+
+
+
+//creating classlist for each div to be styled with css
 
 //make squares generate colors on hover
 
