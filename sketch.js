@@ -11,6 +11,10 @@ function entryHint(){
     promptText.textContent = "Enter a number between 2 and 99.";
 }
 
+//declare function to make divs
+createDiv();
+draw();
+
 
 //create a function that makes the grid per user input or on page load
 function createDiv() {
@@ -24,13 +28,31 @@ function createDiv() {
         containerDiv.innerHTML = ""
         if(number < 2 || number > 99 || number == ""){
             for(let i = 0; i < 16; i++){
-                
+                let row = document.createElement('div');
+                row.classList.add('row')
+                containerDiv.appendChild(row);
+                for(let y = 0; y < 16; y++){
+                    let column = document.createElement('div');
+                    column.classList.add('column');
+                    row.appendChild(column);
+                }
+            
+            }
+         } else{
+                for(let i = 0; i < number; i++){
+                    let row = document.createElement('div');
+                    row.classList.add('row');
+                    containerDiv.appendChild(row);
+                    for(let y = 0; y < number; y++){
+                        let column = document.create.Element('div');
+                        column.classList.add('column')
+                        row.appendChild(column);
+                    }
+                } 
             }
         }
     }
 
-
-}
     
    
 
