@@ -9,28 +9,37 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-         <h1 class="header">Etchy Sketchy</h1>
+         
+         <h1 class="header">Sketch Pad</h1>
          <div id="form" class="form">
-            <p>Pick New Size</p>
-            <input type="text" id = "user-number" class ="user-number">
+            <p class="form-text">Pick A New Size</p>
+           <input type="text" id = "user-number" class ="user-number"></label>
             <p id="copy-input"></p>
-            <button id="user-submit" class="user-submit">Submit</button>
-            <p id="prompt"></p>
+            <button id="user-submit" class="user-submit">OK</button>
+            <p id="prompt" class="prompt"></p>
          </div>
          <div class="sketch">
-             <div id="container" class="container"></div>
-                 <div id="button-container">
+            <div class="cont-design">
+                <div id="container" class="container"></div>
+            </div>
+                 <div id="button-container" class="button-container">
                     <form id="buttons">
-                        <input type="radio" id="black" name="color" value="black"> <label for="black">Black</label>
-                        <input type="radio" id="red" name="color" value="red"> <label for="red">Red</label>
-                       <input type="radio" id="blue" name="color" value="blue"> <label for="blue">Blue</label>
-                       <input type="radio" id="random" name="color" value="random"> <label for="Random">Random</label>
-                       <input type="radio" id="erase" name="color" value="erase"> <label for="erase">Erase</label>
-                      <button id="clear-all">Clear All</button>
+                        <label for="black" class="labels">Black <input type="radio" id="black" name="color" value="black" class="check">
+                        </label>
+                        <label for="red" class="labels">Red <input type="radio" id="red" name="color" value="red" class="check">
+                        </label>
+                        <label for="blue" class="labels">Blue <input type="radio" id="blue" name="color" value="blue" class="check">
+                        </label>
+                        <label for="Random" class="labels">Random <input type="radio" id="random" name="color" value="random" class="check">
+                        </label>
+                        <label for="erase" class="labels">Erase <input type="radio" id="erase" name="color" value="erase" class="check">
+                        </label>
+                      <button id="clear-all" class="clear-all">Clear All</button>
                     </form>
                  </div>
              </div>
-         <footer>Built by Sefeoluwa for <a href="https://www.theodinproject.com" target="_blank">The Odin Project Curriculum </a> </footer>
+         <footer class="footer">Built by Sefeoluwa for <a href="https://www.theodinproject.com" target="_blank">The Odin Project Curriculum </a> </footer>
+       
       
       <script src="sketch.js" async defer></script>
     </body>
