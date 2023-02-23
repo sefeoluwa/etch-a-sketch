@@ -162,7 +162,7 @@ html, body {
     text-decoration:none;
 }
 
-@media screen and (max-width:480px) and (min-width:375px) {
+@media screen and (max-width:997px) and (min-width:378px) {
 
     .header{
         margin-bottom:5px;
@@ -207,7 +207,8 @@ html, body {
    }
 
    .footer{
-    margin-top: 15px;
+    align-items:flex-end;
+
    }
 
 
