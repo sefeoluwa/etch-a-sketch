@@ -173,16 +173,18 @@ html, body {
         display:flex;
         flex-direction:column;
         justify-content:center;
+        margin-bottom:10px;
        
     }
 
     .form-text{
-        font-size:15px;
+        font-size:18px;
         margin-left:100px;
     }
 
     .user-number{
         margin-left:100px;
+        height:35px;
 
     }
 
@@ -191,18 +193,22 @@ html, body {
     }
 
     .user-submit{
-        margin:5px;
-        width:100%;
-        align-self:flex-start;
+        margin-left:100px;
+       height:40px;
+
     }
 
-    .user-submit{
-        margin:50px;
-        width:100%;
-        align-self:flex-start;
-    }
+   .container{
+    height: 300px;
+    width: 300px;
+    margin:5px 10px 10px 20px;
+    border: 20px solid  #e52b4b;
+    border-radius: 14px;
+   }
 
-
+   .footer{
+    margin-top: 15px;
+   }
 
 
     
