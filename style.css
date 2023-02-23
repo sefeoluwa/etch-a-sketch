@@ -116,6 +116,14 @@ html, body {
     user-select: none;
 }
 
+.labels .check:after{
+    border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 
 .check{
   position: absolute;
@@ -146,6 +154,12 @@ html, body {
 .footer{
     display:flex;
     justify-content:center;
+    font-size:13px;
+}
+
+.link{
+    margin-left:5px;
+    text-decoration:none;
 }
 
 
