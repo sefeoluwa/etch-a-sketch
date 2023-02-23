@@ -73,6 +73,8 @@ function createGrid() {
         for(let i = 0; i < columns.length; i++){
             columns[i].addEventListener("mouseover", changeColor);
         }
+
+        
     function changeColor(){
         let blackColor = document.getElementById('black');
         let redColor = document.getElementById('red');
