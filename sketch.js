@@ -6,6 +6,7 @@ let copyInput = document.getElementById('copy-input');
 let promptText = document.getElementById('prompt');
 let clearButton = document.getElementById('clear-all');
 
+//make functions run at the click of buttons and checkboxes
 userValue.addEventListener('focus', entryHint);
 userValue.addEventListener('keyup', duplicateGrid);
 userSubmit.addEventListener('click', createGrid);
@@ -94,6 +95,7 @@ function createGrid() {
     }
     }
 
+    //function to clear colors in all grids with the clear all button
 function clearGrid(){
     let columns = document.getElementByClassName("column");
     for(let i = 0; i < columns.length; i++){
