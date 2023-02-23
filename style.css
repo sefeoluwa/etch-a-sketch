@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@500;800&display=swap');
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -5,47 +10,58 @@ html, body {
     font-family: Exo;    
     height: 100%;
     width: 100%;
-    background-color: #F8F8FF;
+    background-color: #FFFFF0;
+    font-family: 'Mukta', sans-serif;
 }
 
-.sketch-identity{
-    background-color: red;
-    padding:0;
-}
 
 .header{
     display:flex;
     justify-content:center;
+    font-family: 'Bungee Spice', cursive;
+    font-size:40px;
 }
 
 .form{
     display:flex;
     justify-content:center;
     margin:10px 10px;
+    padding:20px;
+    
    
 }
 
+.form-text{
+    font-size:20px;
+    margin-right: 10px;
+}
+
 .user-number{
-    margin:10px;
+    margin:10px 15px 0 0;
     border: 2px solid;
     border-radius: 5px;
     width:60px;
     height:40px;
     padding: 0 0 0 50px;
+    background-color: #FFFFF0;
 }
 
 
 .user-submit{
     width:110px;
     height:43px;
-    margin: 11px 0 0 10px;
+    margin: 11px 0 0 20px;
     border: 2px solid;
     border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    background-color: #FFFFF0;
 }
 
 .user-submit:hover{
     background-color:#C71585;
-    color:#f3f1f1
+    color:#f3f1f1;
+    width:120px;
+    height:46px;
 }
 .prompt{
     margin-left:20px; 
@@ -64,7 +80,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 40px solid  #DB7093;
+    border: 40px solid  #e52b4b;
     border-radius: 14px;
     background: linear-gradient(#f3f1f1, #b8b5b5);
     background-repeat: no-repeat;
@@ -83,6 +99,48 @@ html, body {
 .button-container{
     display:flex;
     justify-content:center;
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.labels{
+    padding:10px;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.check{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  margin: 18px 20px 0 0;
+}
+
+.clear-all{
+    width:110px;
+    height:43px;
+    margin: 11px 0 0 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-family: 'Mukta', sans-serif;
+    background-color: #FFFFF0;
+}
+
+.clear-all:hover{
+    background-color:#C71585;
+    color:#f3f1f1;
+    width:120px;
+    height:46px;
 }
 
 .footer{
